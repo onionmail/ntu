@@ -1,0 +1,14 @@
+NTU LocalProxy:
+  NTU (Network Termination Unit) is an idea to forward the connection via TOR.
+  NTU can be used for:
+  * Hide more the Tor hidden services (forwarding a connection to tor).
+  * Connect the applications to Tor network without SOCKS support.
+  * Connect yout email client via tor and internet without SOCKS support.
+  
+  Example of use:
+  
+  Tor Hidden Service ----> NTU ----> Tor Hidden Service ----> Server.
+  Email client ----> NTU ----> Tor ----> Hidden Service.
+  
+NTU is a part of TorDNSLocalProxy project.
+
